@@ -14,8 +14,8 @@ This guide will walk you through the steps to run  Demo Social Media Manager ser
 Clone the project repository to your local machine if you haven't already done so.
 
 ```bash
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/naimudding/Demo-Social-Media-Manager.git
+cd demo_sm_manager
 ```
 
 ### 2. Buid Docker Image
@@ -31,4 +31,4 @@ docker run -it -p 8000:8000 -d demo_sm_manager
 ```
 Bravo. That's it. Now lets test if it is running or not
 
-Search this link http://localhost:8000/admin/ on any browser. If you are able to see login page of Django Admin, Then it done. You can test your APIs in POSTMAN
+Search this link http://localhost:8000/admin/ on any browser. If you are able to see login page of Django Admin, Then it is done. You can test your APIs in POSTMAN
