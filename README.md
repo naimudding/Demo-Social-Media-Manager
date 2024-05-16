@@ -15,7 +15,7 @@ Clone the project repository to your local machine if you haven't already done s
 
 ```bash
 git clone https://github.com/naimudding/Demo-Social-Media-Manager.git
-cd demo_sm_manager
+cd Demo-Social-Media-Manager
 ```
 
 ### 2. Buid Docker Image
