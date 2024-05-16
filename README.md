@@ -32,3 +32,17 @@ docker run -it -p 8000:8000 -d demo_sm_manager
 Bravo. That's it. Now lets test if it is running or not
 
 Search this link http://localhost:8000/admin/ on any browser. If you are able to see login page of Django Admin, Then it is done. You can test your APIs in POSTMAN
+
+
+### To access admin portal by above url, you have to create a super user.
+Here is how you can create one
+```bash
+python manage.py runserver
+```
+
+### Postman Documentation is also attached here 
+Steps to import postman collection and use it
+
+#### Step 1: Find "DEMO SM.postman_collection.json" File
+#### Step 2: Open Postman. Click on File and then import button
+#### Step 3: Open Any request and Send request
